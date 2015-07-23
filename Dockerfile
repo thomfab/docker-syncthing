@@ -40,7 +40,7 @@ RUN mkdir /syncthing-conf && \
 
 VOLUME ["/syncthing-conf", "/Sync"]
 
-EXPOSE 8384 22000 21025/udp
+EXPOSE 8384 22000 21025/udp 21026/udp 22026/udp
 
 CMD ["/run.sh"]
 
